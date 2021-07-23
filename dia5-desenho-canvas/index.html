@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desenho no Canvas</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body> 
+    <h1>Desenho no Canvas</h1>
+    
+    <!-- Area da tela -->
+    <canvas id="tela" width="800" height="400"></canvas>
+    <!-- Div das cores-->
+    <div class="colorArea">
+        <div data-color="black" style="background-color: black" class="color active"></div>
+        <div data-color="blue" style="background-color: blue" class="color"></div>
+        <div data-color="red" style="background-color: red" class="color"></div>
+        <div data-color="green" style="background-color: green" class="color"></div>
+        <div data-color="yellow" style="background-color: yellow" class="color"></div>
+        <div data-color="gray" style="background-color: gray" class="color"></div>
+    </div>
+    <!-- Botao para limpar a tela-->
+    <button class="clear">Limpar Quadro</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
